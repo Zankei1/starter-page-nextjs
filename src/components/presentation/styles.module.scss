@@ -23,16 +23,11 @@
         clear: both;
     }
 
-    .imageBg {
-        min-width: 100%;
-        height: auto;
-
-        img {
-            width: 1050px;
-            position:absolute;
-            bottom: 0;
-            left: 90px;
-        }
+    #cards {
+        width: 1050px;
+        position: absolute;
+        bottom: 0;
+        left: 90px;
     }
 
     @media (max-height: 1080px){
@@ -44,11 +39,10 @@
             font-size: 1.7rem;
         }
 
-        .imageBg {
-            img {
-                width: 800px;
-            }
+        #cards {
+            width: 800px;
         }
+        
     }
 
     @media (max-height: 880px){
@@ -60,10 +54,8 @@
             font-size: 1.5rem;
         }
 
-        .imageBg {
-            img {
-                width: 650px;
-            }
+        #cards {
+            width: 650px;
         }
     }
 
@@ -76,10 +68,8 @@
             font-size: 1.5rem;
         }
 
-        .imageBg {
-            img {
-                width: 550px;
-            }
+        #cards {
+            width: 550px;
         }
     }
 
@@ -92,11 +82,9 @@
             font-size: 1.5rem;
         }
 
-        .imageBg {
-            img {
-                width: 550px;
-                position: relative;
-            }
+        #cards {
+            width: 550px;
+            position: relative;
         }
     }
 }

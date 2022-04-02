@@ -16,8 +16,12 @@ export function Presentation() {
                         nossa página na web
                     </p>
                 </div>
-                <div className={styles.imageBg}>
-                    <img src="/images/cards.svg" alt="cartoes" />
+                <div>
+                    <img
+                        id={styles.cards}
+                        src="/images/cards.svg"
+                        alt="cartoes"
+                    />
                 </div>
             </div>
         </section>
