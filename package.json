@@ -11,16 +11,19 @@
   "dependencies": {
     "next": "12.1.4",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "sass": "^1.49.11"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
     "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "12.1.4",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "7.28.0",
     "prettier": "^2.6.1",
