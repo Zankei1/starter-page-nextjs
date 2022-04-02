@@ -1,0 +1,12 @@
+.mainBackground {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/bg_image.png");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}

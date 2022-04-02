@@ -1,37 +1,102 @@
-.contentleft {
-    width: 60%;
-    height: 100vh;
+.contentLeft {
+    width: 65%;
+    min-height: 100vh;
     padding: 18px 0 0 60px;
     position: relative;
 
+
     .logo {
-        width: 522px;
-        height: 251px;
+        width: 450px;
     }
 
     h1 {
-        font-size: 4rem;
-        line-height: 4rem;
+        font-size: 3.5rem;
         font-weight: 600;
     }
 
     p {
         font-size: 1.7rem;
-        font-weight: 600;
+        font-weight: auto;
     }
 
     .content {
-        max-height: 60vh;
+        clear: both;
     }
 
     .imageBg {
-
-        width: 100%;
+        min-width: 100%;
+        height: auto;
 
         img {
-            width: 90%;
+            width: 1050px;
             position:absolute;
             bottom: 0;
+            left: 90px;
+        }
+    }
+
+    @media (max-height: 1080px){
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.7rem;
+        }
+
+        .imageBg {
+            img {
+                width: 800px;
+            }
+        }
+    }
+
+    @media (max-height: 880px){
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .imageBg {
+            img {
+                width: 650px;
+            }
+        }
+    }
+
+    @media (max-height: 770px){
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .imageBg {
+            img {
+                width: 550px;
+            }
+        }
+    }
+
+    @media (max-height: 700px){
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .imageBg {
+            img {
+                width: 550px;
+                position: relative;
+            }
         }
     }
 }
