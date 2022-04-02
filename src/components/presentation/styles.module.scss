@@ -1,7 +1,7 @@
 .contentLeft {
     width: 65%;
     min-height: 100vh;
-    padding: 18px 0 0 60px;
+    margin-left: 60px;
     position: relative;
 
 
@@ -19,15 +19,14 @@
         font-weight: auto;
     }
 
-    .content {
-        clear: both;
-    }
+    // .content {
+    //     clear: both;
+    // }
 
     #cards {
         width: 1050px;
         position: absolute;
         bottom: 0;
-        left: 90px;
     }
 
     @media (max-height: 1080px){
